@@ -44,6 +44,12 @@ print(color.PURPLE + 'ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛊᛏᛒᛖ�
 cast = True
 
 while cast:
+
+    if APIKey == '':
+        print(color.RED + 'Error: No API key found' + color.END)
+        print(color.RED + 'Please paste your RANDOM.ORG API key into the runecaster.py file (see README.md for instructions)' + color.END)
+        break
+    
     number_of_runes = inputNumber('How many runes do you require? ')
     
     spinner.start()
