@@ -1,7 +1,6 @@
-
 # RuneCaster
 
-RuneCaster is a command line utility, written in Python, to generate truly random Elder Futhark rune casts. It uses the RANDOM.ORG API.
+RuneCaster is a command line utility, written in Python, to generate truly random Elder Futhark rune casts. It uses the RANDOM.ORG API and ancient runic magic.
 
 ## Setup
 
@@ -22,4 +21,3 @@ RuneCaster is a command line utility, written in Python, to generate truly rando
    Save and close the file.
 3. Run RuneCaster:
    `python runecaster.py`
-
