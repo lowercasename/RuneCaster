@@ -14,7 +14,7 @@ RuneCaster is a command line utility, written in Python, to generate truly rando
 1. Clone this repository somewhere on your computer:
    `git clone https://github.com/lowercasename/RuneCaster.git`
 2. Open the directory:
-   `cd runecaster`
+   `cd RuneCaster`
 3. Open up the `runecaster.py` file in your favourite text editor and edit the 'API key here' line so it looks like this:
    ```
    APIKey = 'abcdabcd-abcd-abcd-abcd-abcdabcdabcd' # Paste your RANDOM.ORG API key here
