@@ -9,7 +9,7 @@ APIKey = '' # Paste your RANDOM.ORG API key here
 yes = {'yes','y', 'ye', ''}
 no = {'no','n'}
 
-spinner = Halo(text='Casting...', spinner='dots')
+spinner = Halo(text='Casting...', spinner='moon')
 
 class color:
    PURPLE = '\033[35m'
