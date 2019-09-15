@@ -2,6 +2,8 @@ import math
 from halo import Halo
 from jsonrpcclient import request
 
+APIKey = '' # Paste your RANDOM.ORG API key here
+
 yes = {'yes','y', 'ye', ''}
 no = {'no','n'}
 
@@ -46,7 +48,7 @@ while cast:
     
     spinner.start()
     
-    response = request('https://api.random.org/json-rpc/2/invoke', 'generateIntegers', apiKey='675c668b-9c0b-4a52-aecb-86e348114c6f', n=number_of_runes, min='1', max='24', replacement=False)
+    response = request('https://api.random.org/json-rpc/2/invoke', 'generateIntegers', apiKey=APIKey, n=number_of_runes, min='1', max='24', replacement=False)
     
     spinner.stop()
     
