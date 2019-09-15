@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import math
 from halo import Halo
 from jsonrpcclient import request
